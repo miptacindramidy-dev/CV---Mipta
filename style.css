@@ -3,14 +3,19 @@ body {
     margin: 20px;
     background-color: #f8f9fa;
 }
-
 h1 {
+    text-align: center;
+    color: #2c3e50;
+    letter-spacing: 2px;
+}
+
+.jurusan {
     text-align: center;
     margin-top: -10px;
     font-size: 18px;
     font-weight: normal;
     color: #34495e;
-}
+} 
 
 .garis-tebal {
     border: none;
@@ -20,10 +25,10 @@ h1 {
     width: 60%;
 }
 
-.kontakk {
+.kontak {
     text-align: center;
-    margin-top: -5px;
-    margin-bottom: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
     font-size: 14px;
     color: #555;
 }
