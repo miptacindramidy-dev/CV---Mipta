@@ -6,15 +6,38 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 20px;
+            background-color: #f8f9fa;
         }
         h1 {
             text-align: center;
+            color: #2c3e50;
+            letter-spacing: 2px;
         }
+
+        .jurusan {
+            text-align: center;
+            margin-top: -10px;
+            font-size: 18px;
+            font-weight: normal;
+            color: #34495e;
+        } 
+
+        .garis-tebal {
+            border: none;
+            height: 4px;
+            background: #2c3e50;
+            margin: 8px auto 15px;
+            width: 60%;
+        }
+
         .kontak {
             text-align: center;
             margin-top: -10px;
             margin-bottom: 10px;
+            font-size: 14px;
+            color: #555;
         }
+
         hr {
             border: none;
             height: 2px;
@@ -22,9 +45,14 @@
             width: 50%;
             background: #333;
         }
+
         h2 {
             margin-top: 20px;
+            color: #34495e;
+            border-left: 5px solid #333;
+            padding-left: 8px;
         }
+
         .pemisah {
             border: none;
             height: 3px;
@@ -32,11 +60,23 @@
             background: #000;
             width: 100%;
         }
+
+        ul li {
+            margin-bottom: 5px;
+            transition: transform 0.2s ease;
+        }
+
+        ul li:hover {
+            transform: translateX(5px);
+            color: #2c3e50;
+        }
+
     </style>
 </head>
 <body>
 
     <h1>Mohammad Miftah Auliandi</h1>
+    <h3 class="jurusan">Mahasiswa Sistem Informasi</h3>
     <p class="kontak">082181325070 |  mipta.cindramidy@gmail.com  |   JL Bulak Tengah III No 19</p>
     <hr>
 
@@ -68,6 +108,24 @@
     <ul>
         <li>Juara 1 Lomba Sepak Bola setingkat Kabupaten</li>
     </ul>
+    <hr class="pemisah">
 
+    <h2>Hard Skill</h2>
+    <ul>
+        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+        <li>Canva</li>
+        <li>UI/UX Design</li>
+    </ul>
+    <hr class="pemisah">
+
+    <h2>Soft Skill</h2>
+    <ul>
+        <li>Kerja sama tim</li>
+        <li>Kepemimpinan</li>
+        <li>Manajemen Waktu</li>
+        <li>Komunikasi Efektif</li>
+        <li>Problem Solving</li>
+        <li>Mudah Beradaptasi</li>
+    </ul>
 </body>
 </html>
